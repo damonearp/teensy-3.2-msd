@@ -1,0 +1,34 @@
+# Simple log of what changes were made to these files to make them work
+
+adafruit-SD-master-20131105
+ utility/Sd2Card.cpp: 
+  +21 #if 0
+  +27 #endif
+  +28 #include <core_pins.h>
+  +30 typedef uint8_t RwReg;
+  +31 #define noInterrupts() __disable_irq()
+  +32 #define interrupts()   __enable_irq()
+ utility/Sd2Card.h:
+  -91 #define SD_PROTECT_BLOCK_ZERO 1
+  +91 #define SD_PROTECT_BLOCK_ZERO 0
+ utility/Sd2PinMap.h:
+  -25 #include <Arduino.h>
+  +25 #include <pins_arduino.h>
+
+
+# unfortunately didn't log all the changes to these files, simple diffs should
+# illuminate what was altered. Just as above the changes were minor.
+cores-master-20160302
+  teensy3/HardwareSerial.h:
+   +171 #if 0
+   +282 #endif
+
+
+spi-master-20150403
+ SPI.h:
+  -16 #include <Arduino.h>
+  +16 #include <kinetis.h>
+  +17 #include <pins_arduino.h>
+  +18 #include <stddef.h>
+  +19 #include <avr_emulation.h>
+
