@@ -7,7 +7,7 @@ Kevin Cuzner provided excellent information in his [Teensy 3.1 Bare Metal Post](
 
 The final device is a [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) soldered together with a [Micro SD Card Adapter](https://www.pjrc.com/store/wiz820_sd_adaptor.html), and a Micro SD card for storage. It provides logging over the first serial tx pin, and has been rudementarly tested with Linux v4.4.x and Windows 7.
 
-Code Dependencies
+**Code Dependencies**
 - [PaulStoffregen/cores](https://github.com/PaulStoffregen/cores) 
 - [PaulStoffregen/SPI](https://github.com/PaulStoffregen/SPI)
 - [adafruit/SD](https://github.com/adafruit/SD)
