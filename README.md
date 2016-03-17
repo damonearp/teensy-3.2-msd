@@ -1,7 +1,7 @@
 # teensy-3.2-msd
 Custom teensy firmware to have the teensy act as a USB Mass Storage Device. 
 
-This is a learning project and the goal was to create a USB MSD with a Teensy 3.2 and the Micro SD card reader. While the code relys on existing Teensy and Arduino code, most of the dependencies have been removed and the USB driver updated/rewritten. As such it is a standalone project which only needs the gcc arm-none-eabi build tools to make and [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) to load onto the Teensy.
+This is a learning project and the goal was to create a USB MSD with a Teensy 3.2 and the Micro SD card reader. While the code relies on existing Teensy and Arduino code, most of the dependencies have been removed and the USB driver updated/rewritten. As such it is a standalone project which only needs the gcc arm-none-eabi build tools to make and [PaulStoffregen/teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) to load onto the Teensy.
 
 Kevin Cuzner provided excellent information in his [Teensy 3.1 Bare Metal Post](http://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver) and sample code at [kcuzner/teensy-oscilloscope](https://github.com/kcuzner/teensy-oscilloscope).
 
